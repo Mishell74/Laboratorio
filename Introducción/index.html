@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/index.js"></script>
+  </head>
+  <body bgcolor="#f8bbd0">
+    <body>
+        <div class="container">
+        
+
+    <nav class="purple" >
+   <div class="nav-wrapper" style = "background-color: rgb(270, 270, 270) ;">
+     <a href="#" class="brand-logo"><img src="Imágenes/LOGOO.PNG" width="10%">
+     <a id="nav-mobile" class="right hide-on-med-and-down">
+        
+        <a align="center" href="#"><span class="email black-text" >-------------------> ingrese con su usuario y contraseña </span></a>
+    
+    
+   </div>
+ </nav>
+ 
+    <div class="row">
+    <form class="col s12" method="post" action="user.php">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_box</i>
+          <input  type="text" name="Nombre">
+          <label>Usuario</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">password</i>
+          <input  type="password" name="Password">
+          <label>Contraseña</label>
+        </div>
+        <button class="btn waves-effect waves-light" style = "background-color: rgb(245, 99, 196)" type="submit" name="action"> Ingrese
+            <i class="material-icons right">login</i>
+          </button>
+    </div>
+    
+  </div>
+
+  </body>
+   
+</div>
+</body>
+</html>
